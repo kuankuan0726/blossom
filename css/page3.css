@@ -6,7 +6,7 @@ body {
     color: #AC725C;
     border-color: #AC725C;
     background-color: #FAF8F6;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .burger {
@@ -170,19 +170,36 @@ body {
 
 .page h1 {
     font-size: 2vw;
-    margin: 0 0 0 2vw;
-    width: 100vw;
+    padding: 0 0 0 2vw;
+    box-sizing: border-box;
+    width: fit-content;
     text-align: left;
     letter-spacing: 1vw;
+}
+
+.wedding-style {
+    margin-top: 10vh;
+}
+
+.wedding_style::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .hr1 {
     float: left;
 }
 
+.hr1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .hr2 {
     float: left;
-    margin: 4vh -4vw 2vh;
+    margin: 4vh -4vw;
 }
 
 .outdoor {
@@ -229,11 +246,43 @@ body {
 }
 
 .wedding-style {
+    display: flex;
+    align-items: center;
     width: 70vw;
-    display: block;
-    align-content: center;
-    margin: 10vh auto;
+    margin: 5vh auto 17vh;
+    position: relative;
+}
 
+.b1 {
+    align-self: flex-end;
+    width: 20%;
+}
+
+
+.b2 {
+    width: 30%;
+    margin: 0 10vw;
+}
+
+.b3 {
+    align-self: flex-start;
+    width: 20%;
+}
+
+.wedding-style span{
+    position: absolute;
+}
+.s1{
+    top: -15vh;
+    left: 9vw;
+}
+.s2{
+    top: 30vh;
+    right: 17vw;
+}
+.s3{
+    right: 9.5vw;
+    top: 15vh;
 }
 
 .style1 {
@@ -301,7 +350,7 @@ body {
     height: 1vh;
     width: 100vw;
     line-height: 1vh;
-    margin: 50px auto;
+    margin: 6vh auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -320,8 +369,177 @@ body {
     flex-grow: 1.5;
 }
 
-.wedding-pic{
-    width: 70vw;
+.wedding-pic {
+    width: 90vw;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 
+.wedding-pic img {
+    width: 8vw;
+}
+
+.left {
+    position: relative;
+    flex: 4 0 0;
+
+}
+
+.left img {
+    position: absolute;
+}
+
+.left img:first-child {
+    left: -6vw;
+}
+
+.left img:nth-child(2) {
+    left: 8vw;
+    top: 8vh;
+}
+
+.left img:nth-child(3) {
+    left: 20vw;
+    top: 32vh;
+}
+
+.left img:nth-child(4) {
+    left: 2vw;
+    top: 36vh;
+}
+
+.left img:nth-child(5) {
+    left: 8vw;
+    top: 57vh;
+}
+
+.left img:nth-child(6) {
+    left: -6vw;
+    top: 67vh;
+}
+
+.middle {
+    position: relative;
+    flex: 2 0 0;
+    text-align: center;
+}
+
+.middle img {
+    width: 22vw;
+    margin: 0 0 4vh;
+}
+
+.middle p {
+    font-size: 1.6vw;
+    margin-bottom: 3vh;
+}
+
+.right {
+    position: relative;
+    flex: 4 0 0;
+}
+
+.right img {
+    position: absolute;
+}
+
+.right img:first-child {
+    right: -6vw;
+}
+
+.right img:nth-child(2) {
+    right: 8vw;
+    top: 8vh;
+}
+
+.right img:nth-child(3) {
+    right: 20vw;
+    top: 32vh;
+}
+
+.right img:nth-child(4) {
+    right: 2vw;
+    top: 36vh;
+}
+
+.right img:nth-child(5) {
+    right: 8vw;
+    top: 57vh;
+}
+
+.right img:nth-child(6) {
+    right: -6vw;
+    top: 67vh;
+}
+
+.middle a {
+    text-align: center;
+}
+
+.middle ul {
+    list-style: disc;
+    text-align: left;
+    width: 28vw;
+    margin: 1vh 0 5vh;
+    line-height: 5vh;
+
+}
+
+.wedding-pic a {
+    position: absolute;
+    bottom: -25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #AC725C;
+}
+
+.wedding-pic a::after {
+    content: "";
+    background-image: url("../image/wedding/arrow.png");
+    width: 45px;
+    height: 13px;
+    display: block;
+    position: relative;
+    left: 66px;
+    top: -7px;
+}
+
+.wedding-pic2 {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wedding-pic2 img {
+    width: 8vw;
+}
+
+.wedding-pic2 .middle img {
+    width: 22vw;
+    margin: 0 0 4vh;
+}
+
+/* js設定click後記得刪除 */
+
+.wedding-t2 {
+    margin-top: 10vh;
+}
+
+.bottom {
+    margin: 10vh auto 0;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 2vw;
+    word-spacing: 1.5vw;
+    background-color: #AC725C;
+}
+
+.bottom i {
+    color: #FAF8F6;
+    line-height: 10vh;
 }

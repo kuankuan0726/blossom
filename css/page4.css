@@ -1,0 +1,253 @@
+@import url('reset.css');
+
+body {
+    font-family: '微軟正黑體', Arial;
+    font-size: 1.2vw;
+    color: #AC725C;
+    border-color: #AC725C;
+    background-color: #FAF8F6;
+    /* overflow-x: hidden; */
+}
+
+.burger {
+    position: fixed;
+    right: -4vw;
+    top: -4vw;
+    z-index: 2;
+    background-color: #F5F3EC;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border: 0;
+}
+
+.burger .line {
+    position: relative;
+    font-size: 2vw;
+    top: 3vh;
+    right: 1.4vw;
+    color: #AC725C;
+}
+
+.burger:hover .menu {
+    display: block;
+}
+
+.burger:hover .x {
+    display: block;
+}
+
+.list a {
+    text-decoration: none;
+    color: #AC725C;
+}
+
+.button1 i {
+    position: relative;
+    color: #fff;
+    font-size: 2vw;
+    top: 0.6vh;
+    right: 0;
+}
+
+.button2 i {
+    position: relative;
+    font-size: 2vw;
+    top: 1vh;
+    right: 0.2vw;
+}
+
+.menu {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.menu img {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    object-fit: cover;
+    position: absolute;
+}
+
+.x {
+    position: fixed;
+    right: -4vw;
+    top: -4vw;
+    z-index: 1000;
+    background-color: #AC725C;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border: 0;
+    display: none;
+
+}
+
+.x i {
+    position: absolute;
+    font-size: 2vw;
+    top: 11.8vh;
+    right: 5.6vw;
+    color: #F5F3EC;
+    z-index: 3;
+
+}
+
+.menu1 {
+    width: 50vw;
+    height: 100vh;
+    float: right;
+    color: #AC725C;
+}
+
+.list {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    top: 8vh;
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
+    line-height: 12vh;
+}
+
+.button1 {
+    display: block;
+    color: white;
+    background-color: #AC725C;
+    font-size: 1.1vw;
+    margin: 11vh auto 4vh;
+    width: 11vw;
+    height: 8vh;
+    line-height: 8vh;
+    border: 0.3vh solid #AC725C;
+    border-radius: 15vw;
+    text-align: center;
+    letter-spacing: 0.4vw;
+    text-decoration: none;
+}
+
+.button2 {
+    display: block;
+    color: #AC725C;
+    font-size: 1.2vw;
+    margin: 0 auto 8vh;
+    width: 11vw;
+    height: 8vh;
+    line-height: 8vh;
+    border: 0.3vh solid #AC725C;
+    border-radius: 15vw;
+    text-align: center;
+    letter-spacing: 0.4vw;
+    text-decoration: none;
+}
+
+
+.top img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.page {
+    position: relative;
+}
+
+.junior {
+    width: 70vw;
+    margin: 10vh auto;
+    display: flex;
+    text-align: center;
+    
+}
+
+.course1 {
+    width: 50%;
+    flex: 1 0 0;
+    padding-right: 20px;
+}
+
+.course1 img {
+    width: 100%;
+}
+
+.lesson {
+    flex: 1 0 0;
+}
+
+.lesson h1 {
+    font-size: 4vh;
+    letter-spacing: 1vw;
+    line-height: 6vh;
+}
+
+.lesson p {
+    letter-spacing: 0.3vw;
+    line-height: 5vh;
+}
+
+.lesson a {
+    display: block;
+    width: 9vw;
+    margin: 7vh auto;
+    line-height: 6vh;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    text-decoration: none;
+    color: #AC725C;
+    border: 0.15vw solid #AC725C;
+    border-radius: 2vw;
+    text-align: center;
+    position: relative;
+}
+
+.lesson span {
+    display: block;
+    width: 55%;
+    height: 2px;
+    background-color: #AC725C;
+    margin-top: .5vh;
+}
+
+.lesson span~span {
+    display: block;
+    width: 55%;
+    height: 2px;
+    background-color: #AC725C;
+    margin: 3vh 15vw;
+}
+.lesson p{
+letter-spacing: 0.3vw;
+line-height: 5vh;
+margin-top: 5vh;
+}
+
+.course2 {
+    width: 50%;
+    flex: 1 0 0;
+    padding-left: 20px;
+}
+
+.course2 img {
+    width: 100%;
+}
+
+.bottom {
+    margin: 10vh auto 0;
+    height: 10vh;
+    text-align: center;
+    font-size: 2vw;
+    word-spacing: 1.5vw;
+    background-color: #AC725C;
+}
+
+.bottom i {
+    color: #FAF8F6;
+    line-height: 10vh;
+}

@@ -6,7 +6,6 @@ body {
     color: #AC725C;
     border-color: #AC725C;
     background-color: #FAF8F6;
-    /* overflow-x: hidden; */
 }
 
 .burger {
@@ -37,7 +36,7 @@ body {
     display: block;
 }
 
-.list a{
+.list a {
     text-decoration: none;
     color: #AC725C;
 }
@@ -157,6 +156,5 @@ body {
 
 .page {
     position: relative;
-    width: 100vw;
-    margin: 0 auto;
 }
+
