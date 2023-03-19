@@ -216,6 +216,11 @@ body {
     text-align: right;
 }
 
+.indoor a{
+    position: relative;
+    top: -78vh;
+}
+
 .wedding img {
     width: 100%;
     margin-bottom: 2vh;
@@ -226,21 +231,23 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    letter-spacing: .2vw;
 }
 
 .line1 {
     position: relative;
     width: .3vw;
     height: 40vh;
-    background-color: #EFEDE0;
+    background-color: #AC725C;
     left: 7vw;
 }
 
 .line2 {
+
     position: relative;
     width: 0.3vw;
     height: 40vh;
-    background-color: #EFEDE0;
+    background-color: #AC725C;
     bottom: 43vh;
     left: 27.5vw;
 }
@@ -271,18 +278,19 @@ body {
 
 .wedding-style span{
     position: absolute;
+    letter-spacing: .1vw;
 }
 .s1{
-    top: -15vh;
-    left: 9vw;
+    top: 17vh;
+    left: 4.5vw;
 }
 .s2{
-    top: 30vh;
-    right: 17vw;
+    top: 62vh;
+    right: 27vw;
 }
 .s3{
-    right: 9.5vw;
-    top: 15vh;
+    right: 4.5vw;
+    top: 46vh;
 }
 
 .style1 {

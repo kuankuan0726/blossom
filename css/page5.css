@@ -333,6 +333,7 @@ body {
 .watering img{
     position: relative;
     width: 20%;
+    z-index: 1;
 }
 .w1{
     top: 5vh;
@@ -364,6 +365,7 @@ body {
 .watering p{
     position: relative;
     width: fit-content;
+    z-index: 1;
 }
 
 .watering .p1{
@@ -386,6 +388,18 @@ body {
     top: 63vh;
     left: 34.5vw;
 }
+
+.bgc{
+    position: relative;
+    top: -31vh;
+    left: 33vw;
+    width: 47vw;
+    height: 71vh;
+    background-color: #EBE9DF;
+    opacity: .5;
+    rotate: 5deg;
+}
+
 
 .bottom {
     margin: 10vh auto 0;
