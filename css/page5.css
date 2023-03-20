@@ -157,12 +157,13 @@ body {
 .page {
     position: relative;
 }
-.vessel{
+
+.vessel {
     position: relative;
 }
 
 
-.vessel h1{
+.vessel h1 {
     font-size: 2vw;
     margin-top: 5vh;
     width: 100%;
@@ -170,7 +171,7 @@ body {
     letter-spacing: 1vw;
 }
 
-.vessel hr{
+.vessel hr {
     float: right;
     margin-left: 2vw;
 }
@@ -182,9 +183,9 @@ body {
     margin: 0 auto;
 }
 
-.vessel-pic img{
+.vessel-pic img {
     width: 90%;
-    
+
 }
 
 .bg1 {
@@ -192,33 +193,36 @@ body {
     height: 30vh;
     background-color: #EBE9DF;
 }
+
 .bg2 {
     width: 40vw;
     height: 30vh;
     background-color: #F0F0F0;
     position: relative;
-    top:63vh;
+    top: 63vh;
     left: 58.7vw;
-    
+
 }
 
-.v1{
+.v1 {
     width: 50vw;
     position: relative;
     top: -48vh;
 }
 
-.v2{
+.v2 {
     width: 50vw;
     position: relative;
     top: -43vh;
     left: 17vw;
 }
+
 .v1 ul {
     display: flex;
     text-align: center;
 }
-.v1 p{
+
+.v1 p {
     text-align: center;
     margin: 3vh;
 }
@@ -228,21 +232,21 @@ body {
     text-align: center;
 }
 
-.v2 p{
+.v2 p {
     text-align: center;
     margin: 3vh;
 }
 
-.tool{
+.tool {
     position: relative;
     width: 70%;
     height: 100vh;
     margin: 0 auto;
     text-align: center;
-    
+
 }
 
-.tool span{
+.tool span {
     position: relative;
     display: block;
     width: 26vw;
@@ -251,13 +255,14 @@ body {
     left: 57vw;
     background-color: #E7E2D2;
 }
-.left-line{
+
+.left-line {
     width: 0.3vw;
     height: 53vh;
     background-color: #AC725C;
 }
 
-.tool img{
+.tool img {
     width: 50%;
     position: relative;
 }
@@ -270,40 +275,44 @@ body {
     left: 12vw;
     rotate: -10deg;
 }
-.tool2{
+
+.tool2 {
     position: absolute;
     z-index: 2;
     top: 25vh;
     left: 12vw;
     rotate: 10deg;
 }
-.tool3{
+
+.tool3 {
     position: absolute;
     z-index: 1;
     top: 25vh;
     left: 12vw;
 }
-.tool p{
+
+.tool p {
     position: relative;
     top: 70vh;
     letter-spacing: .4vw;
 }
 
 
-.left{
+.left {
     font-size: 5vh;
     position: relative;
     top: 39vh;
     left: -19vw;
 }
 
-.right{
+.right {
     font-size: 5vh;
     position: relative;
     top: 32vh;
     right: -21vw;
 }
-#span2{
+
+#span2 {
     position: relative;
     display: block;
     width: 29vw;
@@ -313,12 +322,15 @@ body {
     left: -16vw;
     top: 17vh;
 }
-.watering{
+
+.watering {
     position: relative;
     text-align: center;
-    height: 118vh;;
+    height: 118vh;
+    ;
 }
-.watering h1{
+
+.watering h1 {
     font-size: 2vw;
     margin-top: 5vh;
     width: 100%;
@@ -326,70 +338,77 @@ body {
     letter-spacing: 1vw;
 }
 
-.watering hr{
+.watering hr {
     float: right;
     margin-left: 2vw;
 }
-.watering img{
+
+.watering img {
     position: relative;
     width: 20%;
     z-index: 1;
 }
-.w1{
+
+.w1 {
     top: 5vh;
     left: 18vw;
 }
-.w2{
+
+.w2 {
     top: 41vh;
     left: -12vw;
 }
-.w3{
+
+.w3 {
     top: 37vh;
     left: -4vw;
 }
 
-.w4{
+.w4 {
     top: 68vh;
     right: 41vw;
 }
-.watering img:nth-child(3){
-    width: 17vw;
-}
-.watering img:nth-child(5){
-    width: 25vw;
-}
-.watering img:nth-child(6){
+
+.watering img:nth-child(3) {
     width: 17vw;
 }
 
-.watering p{
+.watering img:nth-child(5) {
+    width: 25vw;
+}
+
+.watering img:nth-child(6) {
+    width: 17vw;
+}
+
+.watering p {
     position: relative;
     width: fit-content;
     z-index: 1;
 }
 
-.watering .p1{
-    top: -14vh; 
+.watering .p1 {
+    top: -14vh;
     left: 46vw;
 }
 
-.watering .p2{
+.watering .p2 {
     top: 41vh;
     left: 19vw;
 }
 
-.watering .p3{
+.watering .p3 {
     top: 35vh;
     left: 51vw;
     width: fit-content;
 }
 
-.watering .p4{
+.watering .p4 {
     top: 63vh;
     left: 34.5vw;
 }
 
-.bgc{
+.bgc {
     position: relative;
     top: -31vh;
     left: 33vw;
@@ -413,4 +432,42 @@ body {
 .bottom i {
     color: #FAF8F6;
     line-height: 10vh;
+}
+
+@media screen and (min-width: 1440px) {
+    .x i {
+        position: absolute;
+        font-size: 2vw;
+        top: 10.8vh;
+        right: 5.6vw;
+        color: #F5F3EC;
+        z-index: 3;
+    }
+
+    .tool p {
+        left: -2vw;
+        position: relative;
+        top: 59vh;
+        letter-spacing: .4vw;
+    }
+
+    .right {
+        font-size: 5vh;
+        position: relative;
+        top: 32vh;
+        right: -18vw;
+    }
+
+    .left {
+        font-size: 5vh;
+        position: relative;
+        top: 39vh;
+        left: -21vw;
+    }
+
+
+    .watering .p1 {
+        top: -11vh;
+        left: 46vw;
+    }
 }

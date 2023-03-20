@@ -498,3 +498,16 @@ body {
     line-height: 10vh;
 }
 
+@media screen and (min-width: 1440px) {
+    .x i {
+        position: absolute;
+        font-size: 2vw;
+        top: 10.8vh;
+        right: 5.6vw;
+        color: #F5F3EC;
+        z-index: 3;
+    }
+
+
+
+}
