@@ -1,0 +1,71 @@
+@media screen and (max-width: 414px) {
+    .top h1 {
+        font-size: 13px;
+        margin: 24px 0 0 10px;
+    }
+
+    .hr1 {
+        width: 74px;
+    }
+
+    .hr2 {
+        margin-top: 20px;
+    }
+
+    .wedding {
+        width: 100%;
+        height: 350px;
+        margin: 0;
+
+    }
+
+    .line1 {
+        height: 250px;
+        left: 0;
+    }
+
+    .line2 {
+        height: 250px;
+        top: 94px;
+        left: 0;
+    }
+
+    .outdoor {
+        flex: 1;
+        margin-left: 20px;
+
+    }
+
+    .indoor {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .indoor a {
+        top: -300px;
+    }
+
+    .wedding-style {
+        width: 100%;
+        margin: 0;
+    }
+
+    .s1 {
+        top: 28.5vh;
+    }
+
+    .s2 {
+        top: 25.5vh;
+        right: 34vw;
+    }
+
+    .s3 {
+        right: 1.5vw;
+        top: 14.5vh;
+    }
+
+    .b2 {
+        flex: 1;
+    }
+
+}

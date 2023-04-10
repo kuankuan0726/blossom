@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blossom</title>
     <link rel="stylesheet" href="css/page2.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/page2_rwd.css">
+    
     <link rel="stylesheet" href="https://kit.fontawesome.com/7e4bf6ae91.css" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/7e4bf6ae91.js" crossorigin="anonymous"></script>
 </head>
@@ -15,34 +18,31 @@
     <div class="page">
         <button class="burger">
             <i class="fa-solid fa-bars line"></i>
-            <div class="menu">
-                <img src="image/menu.jpg" alt="">
-
-                <div class="menu1">
-                    <ul class="list">
-                        <li><a href="page2.html">花禮選購</a></li>
-                        <li><a href="page3.html">婚佈企劃</a></li>
-                        <li><a href="page4.html">花藝課程</a></li>
-                        <li><a href="page5.html">生活選品</a></li>
-                        <li><a href="page6.html">關於我們</a></li>
-                    </ul>
-                    <a href="page7.html" class="button1"><i class="fa-regular fa-user"></i>會員登入</a>
-                    <a href="#" class="button2"><i class="fa-solid fa-cart-shopping"></i>購物車</a>
-
-                </div>
-            </div>
-            <div class="x"> <i class="fa-solid fa-xmark "></i>
-            </div>
         </button>
+        <div class="menu">
+            <img src="image/menu.jpg" alt="">
+
+            <div class="menu1">
+                <ul class="list">
+                    <li><a href="page2.html">花禮選購</a></li>
+                    <li><a href="page3.html">婚佈企劃</a></li>
+                    <li><a href="page4.html">花藝課程</a></li>
+                    <li><a href="page5.html">生活選品</a></li>
+                    <li><a href="page6.html">關於我們</a></li>
+                </ul>
+                <a href="page7.html" class="button1"><i class="fa-regular fa-user"></i>會員登入</a>
+                <a href="#" class="button2"><i class="fa-solid fa-cart-shopping"></i>購物車</a>
+            </div>
+        </div>
         <div class="top">
             <a href="index.html"><img src="./image/logo.png" alt=""></a>
         </div>
+
         <div class="item">
             <div class="itembg">
                 <div class="feature">
                     <h1>精選鮮花禮</h1>
                     <a href="#">VIEW MORE</a>
-
                 </div>
             </div>
             <div class="itemList">
@@ -111,7 +111,7 @@
         <h1>請容我 用純粹的玫瑰<br>在生活中 一朵一朵地堆疊承諾<br>請容我 用最專一的輪廓<br>在時間裡 一次又一次的讓你相信<br>如同玫瑰在生命中靠緊<br>
             你是我這輩子 最想在歲月裡 留下的唯一</h1>
         <div class="w2"><img src="./image/wedding_f/2.png" alt=""></div>
-        <a class="pink">圓形捧-粉紫色</a>
+        <a class="pink">圓形捧花-粉紫色</a>
         <a class="white">方形捧花-白綠色</a>
         <a href="#" class="button">VIEW MORE</a>
     </div>
@@ -122,15 +122,15 @@
         <div class="standing-pic">
             <h1>當你重視的他迎來了生命中的重要時刻<br>聚焦所有視線<br>高尚且優雅</h1>
             <div class="s1">
-                <a>藍紫色系高架花籃</a>
+                <p>藍紫色系高架花籃</p>
                 <img src="./image/standing/1.png" alt="">
             </div>
             <div class="s2">
-                <a>白橘色系高架花籃</a>
+                <p>白橘色系高架花籃</p>
                 <img src="./image/standing/2.png" alt="">
             </div>
             <div class="s3">
-                <a>橘粉色系高架花籃</a>
+                <p>橘粉色系高架花籃</p>
                 <img src="./image/standing/3.png" alt="">
 
             </div>
@@ -143,10 +143,15 @@
             <i class="fa-brands fa-square-facebook"></i>
             <i class="fa-solid fa-phone-volume"></i>
         </div>
+        <div class="goTop">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
     </div>
 
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/page2.js"></script>
 </body>
 
 </html>

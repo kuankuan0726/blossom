@@ -1,0 +1,337 @@
+@media screen and (min-width: 1440px) {
+    .x i {
+        position: absolute;
+        font-size: 2vw;
+        top: 10.8vh;
+        right: 5.6vw;
+        color: #F5F3EC;
+        z-index: 3;
+    }
+
+    .preserved .pic3 img {
+        top: 2vh;
+        position: relative;
+    }
+
+    .propose-pic .pic3 img {
+        top: 14vh;
+        position: relative;
+    }
+
+    .propose .button {
+        display: block;
+        width: 9vw;
+        margin: 4vh auto;
+        line-height: 6vh;
+        font-size: 1vw;
+        letter-spacing: 0.2vw;
+        text-decoration: none;
+        color: #AC725C;
+        border: 0.15vw solid #AC725C;
+        border-radius: 1.2vw;
+        text-align: center;
+        top: -58vh;
+        right: 6vw;
+        position: relative;
+    }
+
+    .pic3 img {
+        top: 13vh;
+        position: relative;
+    }
+
+    .pink {
+        width: fit-content;
+        line-height: 6vh;
+        word-spacing: 1vw;
+        position: absolute;
+        top: 79vh;
+        left: 37vw;
+    }
+
+    .white {
+        width: fit-content;
+        line-height: 6vh;
+        word-spacing: 1vw;
+        position: absolute;
+        top: 79vh;
+        left: 52vw;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .item {
+        height: 170px;
+    }
+
+    .itembg {
+        height: 170px;
+    }
+
+    .feature {
+        top: 14px;
+        line-height: 12px;
+    }
+
+    .feature h1 {
+        left: 3px;
+        top: 25px;
+        font-size: 13px;
+    }
+
+    .feature a {
+        display: block;
+        width: 60px;
+        margin: 4vh auto;
+        line-height: 14px;
+        font-size: 8px;
+        letter-spacing: 1px;
+
+    }
+
+    .page h2 {
+        font-size: 13px;
+        margin: 36px 0;
+    }
+
+    .page hr {
+        margin: 44px 0 0 2vw;
+    }
+
+    .preserved {
+        width: 100%;
+        height: 250px;
+    }
+
+    .pic1 {
+        flex: 1 0 0;
+    }
+
+    .preserved .pic1 img {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .preserved-right {
+        flex: 1 0 0;
+    }
+
+    .preserved-right img {
+        left: 35px;
+
+    }
+
+    .preserved-right .pic3 {
+        left: -12vw;
+        top: -3vh;
+    }
+
+    .preserved-right .pic4 {
+        position: relative;
+        left: -9vw;
+        top: -7vh;
+    }
+
+    .preserved .button {
+        display: initial;
+        left: 108px;
+        top: -95px;
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    .preserved-right .pic2 a {
+        width: 120px;
+        top: 42px;
+        left: 117px;
+    }
+
+    .preserved-right .pic3 a {
+        width: 100px;
+        top: 44px;
+        left: 58px;
+    }
+
+    .preserved-right .pic4 a {
+        width: 120px;
+        top: 48px;
+        left: 117px;
+    }
+
+    /* 求婚花束 */
+    .propose h1 {
+        font-size: 13px;
+        margin: 50px 0 0 10px;
+    }
+
+    .hr1 {
+        width: 74px;
+    }
+
+    .hr2 {
+        margin-top: 20px;
+    }
+
+    .propose-pic {
+        width: 100px;
+        height: 320px;
+        margin: 0;
+    }
+
+    .propose .pic1 {
+        width: 100%;
+        margin-left: 115px;
+        top: -55px;
+    }
+
+    .propose-pic .pic1 a {
+        width: 220px;
+        left: -100px;
+        top: 200px;
+    }
+
+    .propose img {
+        width: 100%;
+    }
+
+    .propose .pic2 {
+        width: 100%;
+        margin-left: 20px;
+        top: -20px;
+    }
+
+    .propose-pic .pic2 a {
+        width: 95px;
+        left: 57px;
+        top: 110px;
+    }
+
+    .propose .pic3 {
+        width: 100%;
+    }
+
+    .propose .pic3 img {
+        width: 180%;
+        top: 250px;
+        left: 60px;
+        position: relative;
+    }
+
+    .propose .button {
+        display: initial;
+        left: 275px;
+        top: -230px;
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    /* 婚禮捧花 */
+    .wedding .hr2 {
+        margin: 20px 0 20px -5vw;
+
+    }
+
+    .wedding h1 {
+        font-size: 13px;
+        margin: 50px 0 0 10px;
+    }
+
+    .wedding-pic {
+        width: 100%;
+        height: 320px;
+        margin: 0;
+    }
+
+    .wedding-pic h1 {
+        width: 185px;
+        line-height: 2.5vh;
+        left: 58vw;
+        top: 5vh;
+
+    }
+
+    .w2 img {
+        top: 17vh;
+        right: 8vw;
+    }
+
+    .pink {
+        display: none;
+    }
+
+    .white {
+        display: none;
+    }
+
+    .wedding-pic .button {
+        display: initial;
+        left: 57px;
+        top: 168px;
+        width: 85px;
+        line-height: 36px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    /* 高架花籃 */
+    .standing h1 {
+        font-size: 13px;
+        margin: 45px 0 0;
+    }
+
+    .standing hr {
+        margin: 6px 0 0 2vw;
+    }
+
+    .standing {
+        width: 100%;
+        height: 300px;
+    }
+
+    .standing-pic {
+        width: 100%;
+        height: 300px;
+    }
+
+    .standing-pic h1 {
+        margin: 0 0 0 10px;
+        top: -56px;
+        line-height: 18px;
+    }
+
+    .standing .button {
+        display: initial;
+        left: 177px;
+        top: -50px;
+        width: 85px;
+        line-height: 36px;
+        height: 36px;
+    }
+
+    .bottom {
+        margin: -3vh auto 0;
+        width: 100%;
+        height: 50px;
+    }
+
+    .bottom i {
+        color: #FAF8F6;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .fa-location-dot:before,
+    .fa-map-marker-alt:before {
+        content: "\f3c5";
+        top: -6px;
+        position: relative;
+    }
+
+    .fa-phone-volume:before,
+    .fa-volume-control-phone:before {
+        content: "\f2a0";
+        top: -6px;
+        position: relative;
+    }
+}

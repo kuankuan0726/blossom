@@ -1,0 +1,18 @@
+@media screen and (max-width: 414px){
+    .junior {
+        width: 100%;
+    }
+    .lesson h1 {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .lesson span~span {
+        margin: 10px 0 0 65px;
+    }
+    .lesson p {
+        margin-top: 5px;
+    }
+    .class2{
+        margin-top: 20px;
+    }
+}

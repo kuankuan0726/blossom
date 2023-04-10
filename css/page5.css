@@ -12,7 +12,7 @@ body {
     position: fixed;
     right: -4vw;
     top: -4vw;
-    z-index: 2;
+    z-index: 100;
     background-color: #F5F3EC;
     width: 10vw;
     height: 10vw;
@@ -25,15 +25,15 @@ body {
     font-size: 2vw;
     top: 3vh;
     right: 1.4vw;
-    color: #AC725C;
+    color: #AC725C
 }
 
-.burger:hover .menu {
-    display: block;
-}
-
-.burger:hover .x {
-    display: block;
+.x {
+    position: relative;
+    font-size: 2vw;
+    top: 3vh;
+    right: 1.4vw;
+    color: white;
 }
 
 .list a {
@@ -60,7 +60,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #fff;
-    z-index: 100;
+    z-index: 50;
     position: fixed;
     top: 0;
     left: 0;
@@ -75,29 +75,6 @@ body {
     position: absolute;
 }
 
-.x {
-    position: fixed;
-    right: -4vw;
-    top: -4vw;
-    z-index: 1000;
-    background-color: #AC725C;
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    border: 0;
-    display: none;
-
-}
-
-.x i {
-    position: absolute;
-    font-size: 2vw;
-    top: 11.8vh;
-    right: 5.6vw;
-    color: #F5F3EC;
-    z-index: 3;
-
-}
 
 .menu1 {
     width: 50vw;
@@ -148,11 +125,18 @@ body {
 }
 
 
-.top img {
-    width: 10%;
-    display: block;
+.top a {
     margin: 0 auto;
+    width: fit-content;
+    display: block;
 }
+
+.top img {
+    width: 135px;
+    margin: 0 auto;
+    display: block;
+}
+
 
 .page {
     position: relative;
@@ -185,7 +169,12 @@ body {
 
 .vessel-pic img {
     width: 90%;
+}
 
+.vessel-pic img:hover {
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 .bg1 {
@@ -274,6 +263,7 @@ body {
     top: 25vh;
     left: 12vw;
     rotate: -10deg;
+    pointer-events: none;
 }
 
 .tool2 {
@@ -282,6 +272,7 @@ body {
     top: 25vh;
     left: 12vw;
     rotate: 10deg;
+    pointer-events: none;
 }
 
 .tool3 {
@@ -289,6 +280,7 @@ body {
     z-index: 1;
     top: 25vh;
     left: 12vw;
+    pointer-events: none;
 }
 
 .tool p {
@@ -347,6 +339,13 @@ body {
     position: relative;
     width: 20%;
     z-index: 1;
+}
+
+.watering img:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+    transition: .8s;
+    z-index: 5;
 }
 
 .w1 {
@@ -432,6 +431,24 @@ body {
 .bottom i {
     color: #FAF8F6;
     line-height: 10vh;
+}
+
+.goTop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 5px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #773434;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.goTop i {
+    font-size: 20px;
+    color: #FAF8F6;
 }
 
 @media screen and (min-width: 1440px) {

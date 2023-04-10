@@ -1,6 +1,6 @@
 @import url('reset.css');
 
-body {
+/* body {
     font-family: '微軟正黑體', Arial;
     font-size: 1.2vw;
     color: #AC725C;
@@ -156,5 +156,137 @@ body {
 
 .page {
     position: relative;
-}
+} */
 
+@media screen and (max-width: 414px) {
+    body {
+        font-family: '微軟正黑體', Arial;
+        font-size: 12px;
+        color: #AC725C;
+        border-color: #AC725C;
+        background-color: #FAF8F6;
+        overflow-x: hidden;
+
+    }
+
+    .fa-solid,
+    .fas {
+        position: relative;
+        top: 6px;
+        right: 1px;
+        font-size: 20px;
+    }
+
+    .menu1 {
+        width: 100vw;
+        height: 100vh;
+        float: none;
+        color: #AC725C;
+    }
+
+    .menu {
+        width: 100vw;
+        height: 300px;
+    }
+
+    .menu img {
+        display: none;
+    }
+
+    .list {
+        line-height: 30px;
+        top: 30px;
+    }
+
+    .list a {
+        font-size: 14px;
+    }
+
+    .button1 {
+        width: 84px;
+        height: 29px;
+        line-height: 29px;
+        margin: 40px auto 10px;
+        font-size: 12px;
+    }
+
+    .button1 i {
+        top: 0;
+        font-size: 12px;
+    }
+
+    .button2 {
+        width: 84px;
+        height: 29px;
+        line-height: 29px;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .button2 i {
+        top: 0;
+        font-size: 12px;
+    }
+
+    .mainPage {
+        position: relative;
+        width: 22vw;
+        height: 24vh;
+    }
+
+    .mainPage img {
+        width: 47%;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .mainPage h1 {
+        writing-mode: vertical-lr;
+        position: relative;
+        margin: 2vh auto;
+        letter-spacing: 2vh;
+        font-size: 12px;
+    }
+
+    .video {
+        width: 69vw;
+        height: 33vh;
+        display: block;
+        margin-left: 100px;
+        position: absolute;
+        z-index: 1;
+        border-radius: 0;
+        clip-path: none;
+    }
+
+    .burger {
+        position: fixed;
+        left: 384px;
+        top: -4vw;
+        z-index: 4;
+        background-color: #F5F3EC;
+        width: 11vw;
+        height: 11vw;
+        border-radius: 50%;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .burger .line {
+        position: absolute;
+        right: 15px;
+        top: 21px;
+        font-size: 20px;
+        color: #AC725C;
+    }
+
+    .mainVideo {
+        display: none;
+    }
+
+    .top img {
+        width: 80px;
+    }
+}

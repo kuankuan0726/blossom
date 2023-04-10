@@ -13,7 +13,7 @@ body {
     position: fixed;
     right: -4vw;
     top: -4vw;
-    z-index: 2;
+    z-index: 3;
     background-color: #F5F3EC;
     width: 10vw;
     height: 10vw;
@@ -26,15 +26,15 @@ body {
     font-size: 2vw;
     top: 3vh;
     right: 1.4vw;
-    color: #AC725C;
+    color: #AC725C
 }
 
-.burger:hover .menu {
-    display: block;
-}
-
-.burger:hover .x {
-    display: block;
+.x {
+    position: relative;
+    font-size: 2vw;
+    top: 3vh;
+    right: 1.4vw;
+    color: white;
 }
 
 .list a {
@@ -57,11 +57,12 @@ body {
     right: 0.2vw;
 }
 
+
 .menu {
     width: 100vw;
     height: 100vh;
     background-color: #fff;
-    z-index: 100;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -76,29 +77,7 @@ body {
     position: absolute;
 }
 
-.x {
-    position: fixed;
-    right: -4vw;
-    top: -4vw;
-    z-index: 1000;
-    background-color: #AC725C;
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    border: 0;
-    display: none;
 
-}
-
-.x i {
-    position: absolute;
-    font-size: 2vw;
-    top: 11.8vh;
-    right: 5.6vw;
-    color: #F5F3EC;
-    z-index: 3;
-
-}
 
 .menu1 {
     width: 50vw;
@@ -148,11 +127,16 @@ body {
     text-decoration: none;
 }
 
+.top a{
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+}
 
 .top img {
-    width: 10%;
-    display: block;
+    width: 135px;
     margin: 0 auto;
+    display: block;
 }
 
 .page {
@@ -186,7 +170,11 @@ body {
     width: 70%;
     display: flex;
     margin: 0 auto;
-
+    border-radius: 400px 400px 0 0;
+}
+.itemList img:hover {
+    transform: scale(1.05);
+    transition: .8s;
 }
 
 .itemList li:first-child {
@@ -220,6 +208,8 @@ body {
 .feature h1 {
     font-size: 2vw;
     letter-spacing: 1.5vw;
+    position: relative;
+    left: 8px;
 }
 
 .feature a {
@@ -232,7 +222,7 @@ body {
     text-decoration: none;
     color: #AC725C;
     border: 0.15vw solid #AC725C;
-    border-radius: 2vw;
+    border-radius: 1.2vw;
 }
 
 .preserved {
@@ -266,12 +256,13 @@ body {
     height: 80vh;
 }
 
-.pic1 img {
+.preserved .pic1 img {
     position: relative;
     width: 66%;
     text-align: center;
-
+    
 }
+
 
 .preserved-right {
     flex-direction: column;
@@ -281,7 +272,12 @@ body {
 .preserved-right img {
     position: relative;
     width: 40%;
+    border-radius: 10px;
+}
 
+.preserved-right img:hover {
+    transform: scale(1.2);
+    transition: .8s;
 }
 
 .preserved-right .pic2 {
@@ -302,7 +298,6 @@ body {
     left: -7vw;
     top: -7vh;
 }
-
 
 .preserved-right .pic3 a {
     width: 100%;
@@ -335,7 +330,7 @@ body {
     text-decoration: none;
     color: #AC725C;
     border: 0.15vw solid #AC725C;
-    border-radius: 2vw;
+    border-radius: 1.2vw;
     text-align: center;
     left: 9vw;
     top: -15vh;
@@ -373,12 +368,19 @@ body {
 .propose img {
     width: 30%;
     display: flex;
+    border-radius: 50%;
 }
+
 
 .propose .pic1 {
     width: 80%;
     position: relative;
     top: 9vh;
+    
+}
+.propose .pic1 img:hover {
+    transform: rotate(10deg);
+    transition: .8s;
 }
 
 .propose .pic2 {
@@ -386,6 +388,10 @@ body {
     position: relative;
     top: 10vh;
     left: 3vw;
+}
+.propose .pic2 img:hover {
+    transform: rotate(-10deg);
+    transition: .8s;
 }
 
 .propose .pic3 {
@@ -397,6 +403,7 @@ body {
 
 .propose .pic3 img {
     width: 80%;
+    border-radius: 0;
 }
 
 .propose-pic .pic1 a {
@@ -421,7 +428,7 @@ body {
     text-decoration: none;
     color: #AC725C;
     border: 0.15vw solid #AC725C;
-    border-radius: 2vw;
+    border-radius: 1.2vw;
     text-align: center;
     top: -71vh;
     right: 6vw;
@@ -465,12 +472,21 @@ body {
 .w1 img {
     width: 100%;
 }
+.w1 img:hover {
+    border-radius: 20px;
+    transition: .5s;
+}
 
 .w2 img {
     width: 106%;
     top: 44vh;
     right: 5vw;
     position: relative;
+    filter: drop-shadow(16px 16px 0px #EFEDE0);
+}
+.w2 img:hover {
+    transform: scale(1.05);
+    transition: .8s;
 }
 
 .wedding-pic h1 {
@@ -480,8 +496,6 @@ body {
     position: absolute;
     left: 41vw;
     top: 3vh;
-    font-weight: bold;
-
 }
 
 .pink {
@@ -489,8 +503,8 @@ body {
     line-height: 6vh;
     word-spacing: 1vw;
     position: absolute;
-    top: 84vh;
-    left: 36vw;
+    top: 86vh;
+    left: 37vw;
 }
 
 .white {
@@ -498,8 +512,8 @@ body {
     line-height: 6vh;
     word-spacing: 1vw;
     position: absolute;
-    top: 84vh;
-    left: 52vw;
+    top: 86vh;
+    left: 53vw;
 }
 
 .wedding-pic .button {
@@ -512,7 +526,7 @@ body {
     text-decoration: none;
     color: #AC725C;
     border: 0.15vw solid #AC725C;
-    border-radius: 2vw;
+    border-radius: 1.2vw;
     text-align: center;
     top: 63vh;
     left: 12vw;
@@ -541,29 +555,34 @@ body {
     height: 85vh;
     position: relative;
     display: flex;
+    text-align: center;
     margin: 10vh auto;
     align-items: flex-end;
 
 }
 
 .standing-pic img {
-    width: 100%;
+    width: 93%;
     position: relative;
-
 }
+.standing-pic img:hover {
+    transform: scale(1.05);
+    transition: .5s;
+    border-radius: 20px;
+}
+
 
 .standing-pic h1 {
     width: fit-content;
     line-height: 4vh;
     position: absolute;
     top: -28vh;
-    font-weight: bold;
     font-size: 2.5vh;
     text-align: left;
     letter-spacing: 0.5vw;
 }
 
-.standing-pic a {
+.standing-pic p {
     text-align: center;
     margin: 0 0 3vh;
     display: block;
@@ -579,7 +598,7 @@ body {
     text-decoration: none;
     color: #AC725C;
     border: 0.15vw solid #AC725C;
-    border-radius: 2vw;
+    border-radius: 1.2vw;
     text-align: center;
     top: 3vh;
     left: 11vw;
@@ -599,6 +618,23 @@ body {
     color: #FAF8F6;
     line-height: 10vh;
 }
+.goTop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 5px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #773434;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.goTop i {
+    font-size: 20px;
+    color: #FAF8F6;
+}
 
 @media screen and (min-width: 1440px) {
     .x i {
@@ -609,6 +645,7 @@ body {
         color: #F5F3EC;
         z-index: 3;
     }
+
     .preserved .pic3 img {
         top: 2vh;
         position: relative;
@@ -629,14 +666,14 @@ body {
         text-decoration: none;
         color: #AC725C;
         border: 0.15vw solid #AC725C;
-        border-radius: 2vw;
+        border-radius: 1.2vw;
         text-align: center;
         top: -58vh;
         right: 6vw;
         position: relative;
     }
 
-    .pic3 img{
+    .pic3 img {
         top: 13vh;
         position: relative;
     }
