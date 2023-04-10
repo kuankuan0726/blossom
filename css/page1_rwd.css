@@ -11,6 +11,11 @@
 }
 
 @media screen and (max-width: 414px) {
+    .page2 {
+        overflow: hidden;
+        height: auto;
+    }
+
     body {
         font-family: '微軟正黑體', Arial;
         font-size: 12px;
@@ -19,6 +24,13 @@
         background-color: #FAF8F6;
         overflow-x: hidden;
 
+    }
+
+    .bottom i {
+        font-size: 20px;
+        position: relative;
+        top: 0;
+        right: 0;
     }
 
     .fa-solid,
@@ -144,8 +156,8 @@
 
     .burger .line {
         position: absolute;
-        right: 15px;
-        top: 21px;
+        right: 20px;
+        top: 20px;
         font-size: 20px;
         color: #AC725C;
     }

@@ -1,4 +1,10 @@
 @media screen and (max-width: 414px) {
+    .page{
+        overflow: hidden;
+    }
+    .page h1 {
+        font-size: 13px;
+    }
     .top h1 {
         font-size: 13px;
         margin: 24px 0 0 10px;
@@ -67,5 +73,70 @@
     .b2 {
         flex: 1;
     }
+    .middle p {
+        font-size: 14px;
+    }
 
+    .middle img {
+        width: 50%;
+    }
+
+    .middle ul {
+        width: 69vw;
+        line-height: 2.5vh;
+    }
+    .wedding-pic button::after {
+        position: absolute;
+        left: 60px;
+        top: 7px;
+    }
+
+    .left img:nth-child(2) {
+        left: 8vw;
+        top: 3vh;
+    }
+
+    .left img:nth-child(3) {
+        display: none;
+    }
+
+    .left img:nth-child(4) {
+        display: none;
+    }
+
+    .left img:nth-child(5) {
+        left: 8vw;
+        top: 12vh;
+    }
+
+    .left img:nth-child(6) {
+        left: -6vw;
+        top: 17vh;
+    }
+
+    .right img:nth-child(2) {
+        right: 8vw;
+        top: 3vh;
+    }
+
+    .right img:nth-child(3) {
+        display: none;
+    }
+
+    .right img:nth-child(4) {
+        display: none;
+    }
+
+    .right img:nth-child(5) {
+        right: 8vw;
+        top: 12vh;
+    }
+
+    .right img:nth-child(6) {
+        right: -6vw;
+        top: 17vh;
+    }
+    .wedding-pic2 .middle img {
+        width: 50%;
+    }
 }

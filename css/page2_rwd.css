@@ -61,6 +61,10 @@
 
 
 @media screen and (max-width: 414px) {
+    .wedding-pic {
+        overflow: hidden;
+    }
+
     .item {
         height: 170px;
     }
@@ -158,6 +162,12 @@
         top: 48px;
         left: 117px;
     }
+
+    /* .page {
+        width: 414px;
+        height: 2000px;
+        overflow: hidden;
+    } */
 
     /* 求婚花束 */
     .propose h1 {
@@ -269,8 +279,8 @@
         left: 57px;
         top: 168px;
         width: 85px;
-        line-height: 36px;
-        height: 36px;
+        line-height: 24px;
+        height: 24px;
         font-size: 12px;
     }
 
@@ -286,7 +296,7 @@
 
     .standing {
         width: 100%;
-        height: 300px;
+
     }
 
     .standing-pic {
@@ -305,8 +315,9 @@
         left: 177px;
         top: -50px;
         width: 85px;
-        line-height: 36px;
-        height: 36px;
+        line-height: 24px;
+        height: 24px;
+        font-size: 12px;
     }
 
     .bottom {

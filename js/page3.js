@@ -13,6 +13,8 @@ $(function () {
         $('.right img:nth-child(5)').attr('src', './image/wedding/i11.png');
         $('.right img:nth-child(6)').attr('src', './image/wedding/i12.png');
         $('.middle img').attr('src', '../image/wedding/indoor.png');
+        $('.page h1').html("室內婚禮");
+
     })
 
 })

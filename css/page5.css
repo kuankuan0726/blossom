@@ -163,8 +163,7 @@ body {
 .vessel-pic {
     position: relative;
     width: 70%;
-    height: 72vh;
-    margin: 0 auto;
+    margin: 75px auto;
 }
 
 .vessel-pic img {
@@ -177,33 +176,40 @@ body {
     transition: .5s;
 }
 
-.bg1 {
-    width: 40vw;
-    height: 30vh;
-    background-color: #EBE9DF;
-}
-
-.bg2 {
-    width: 40vw;
-    height: 30vh;
-    background-color: #F0F0F0;
-    position: relative;
-    top: 63vh;
-    left: 58.7vw;
-
-}
-
 .v1 {
     width: 50vw;
     position: relative;
-    top: -48vh;
+}
+
+.v1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 40vw;
+    height: 30vh;
+    background-color: #EBE9DF;
+    top: -75px;
+    left: -190px;
 }
 
 .v2 {
     width: 50vw;
     position: relative;
-    top: -43vh;
     left: 17vw;
+}
+
+.v2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 40vw;
+    height: 30vh;
+    background-color: #F0F0F0;
+    position: absolute;
+    top: 140px;
+    left: 344px;
 }
 
 .v1 ul {

@@ -1,3 +1,76 @@
-@media screen and (max-width: 414px){
-    
+@media screen and (max-width: 414px) {
+  .about {
+    height: auto;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .about h1 {
+    margin-left: 178px;
+  }
+
+  .aboutleft {
+    margin-left: 10px;
+    height: auto;
+  }
+
+  .aboutmain {
+    display: block;
+  }
+
+  .aboutright {
+    display: none;
+  }
+
+  .block1 {
+    width: 80vw;
+    height: 35vh;
+    top: 4.5vh;
+  }
+
+  .p1 {
+    width: 78vw;
+    line-height: 4vh;
+    top: -58vh;
+  }
+
+  .block2 {
+    width: 80vw;
+    top: -20.5vh;
+    height: 29vh;
+  }
+
+  .p2 {
+    width: 86vw;
+    top: -57vh;
+    line-height: 4vh;
+  }
+
+  /* 下半部 */
+  .hr1 {
+    margin: 1vh 3vh 3vh;
+  }
+
+  .hr2 {
+    margin-top: 2.5vh;
+  }
+
+  .service {
+    overflow: hidden;
+  }
+
+  .service-main {
+    margin: 4vh 0 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .service-left {
+    flex: 0;
+    align-self: center;
+  }
+
+  .service-right {
+    padding-left: 10px;
+  }
 }

@@ -1,18 +1,44 @@
-@media screen and (max-width: 414px){
+@media screen and (max-width: 414px) {
     .junior {
         width: 100%;
+        margin: 30px auto;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
+
     .lesson h1 {
         font-size: 14px;
         line-height: 27px;
     }
+
     .lesson span~span {
-        margin: 10px 0 0 65px;
+        margin: 10px 0 0 75px;
     }
+
     .lesson p {
         margin-top: 5px;
     }
-    .class2{
-        margin-top: 20px;
+
+    .lesson .button {
+        margin: 0 0 0 50px;
+        width: 87px;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
     }
+    .junior1{
+        margin-top: 80px;
+    }
+
+
+    .class1 {
+        font-size: 13px;
+    }
+
+    .class3 {
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+
 }

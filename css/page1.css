@@ -131,7 +131,7 @@ body {
     top: 0;
     left: 0;
     display: none;
-    
+
 }
 
 .menu img {
@@ -419,6 +419,7 @@ body {
     font-size: 2vw;
     text-align: center;
     transition: 2s;
+    cursor: pointer;
 }
 
 .mainpic {
@@ -541,4 +542,3 @@ body {
     font-size: 20px;
     color: #FAF8F6;
 }
-

@@ -4,7 +4,7 @@ $(function () {
     let i = 0
     $('.left').css({ opacity: "0" })
     $('.right').click(function () {
-        if ( i < 2) {
+        if (i < 2) {
             i += 1
             $('.name').html(a[i])
             $('.tool' + i).css({ opacity: "0" })
@@ -20,13 +20,17 @@ $(function () {
         if (0 < i && i < 3) {
             i -= 1
             $('.name').html(a[i])
-            $('.tool' + (i+1)).css({ opacity: "1" })
+            $('.tool' + (i + 1)).css({ opacity: "1" })
         }
-        if (i===0) {
+        if (i === 0) {
             $('.left').css({ opacity: "0" })
             $('.right').css({ opacity: "1" })
         }
-      
+
     })
+
+    // 精選花器內容微調
+    $('.v1 ul li:last p').html('阿波羅神')
+    $('.v2 ul li:last p').html('幾何紙花器')
 
 })
