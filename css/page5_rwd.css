@@ -1,4 +1,8 @@
 @media screen and (max-width: 414px) {
+    .vessel {
+        overflow: hidden;
+    }
+
     .vessel-pic {
         width: 100%;
         margin: 50px 0;

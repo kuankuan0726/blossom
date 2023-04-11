@@ -61,7 +61,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #fff;
-    z-index: 100;
+    z-index: 9;
     position: fixed;
     top: 0;
     left: 0;
@@ -125,7 +125,7 @@ body {
 }
 
 
-.top a{
+.top a {
     margin: 0 auto;
     width: fit-content;
     display: block;
