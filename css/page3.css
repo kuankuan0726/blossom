@@ -286,13 +286,13 @@ body {
 }
 
 .s1 {
-    top: 17vh;
+    top: 18vh;
     left: 4.5vw;
 }
 
 .s2 {
-    top: 62vh;
-    right: 27vw;
+    top: 70vh;
+    right: 25vw;
 }
 
 .s3 {
@@ -631,18 +631,18 @@ body {
     }
 
     .s1 {
-        top: 15vh;
+        top: 18vh;
         left: 4.5vw;
     }
-
+    
     .s2 {
-        top: 54vh;
-        right: 27vw;
+        top: 70vh;
+        right: 25vw;
     }
-
+    
     .s3 {
         right: 4.5vw;
-        top: 40vh;
+        top: 47vh;
     }
 
     .wedding-pic a::after {
