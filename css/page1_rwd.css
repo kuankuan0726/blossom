@@ -143,9 +143,9 @@
 
     .burger {
         position: fixed;
-        left: 384px;
-        top: -4vw;
-        z-index: 4;
+        right: -5px;
+        top: -13px;
+        z-index: 10;
         background-color: #F5F3EC;
         width: 11vw;
         height: 11vw;
@@ -156,11 +156,12 @@
 
     .burger .line {
         position: absolute;
-        right: 20px;
-        top: 20px;
+        right: 12px;
+        top: 16px;
         font-size: 20px;
         color: #AC725C;
     }
+
 
     .mainVideo {
         display: none;
@@ -269,7 +270,7 @@
     .collection_a {
         position: relative;
         top: 3vh;
-        width: 367px;
+        width: 195px;
         letter-spacing: 0.3vw;
         line-height: 2vh;
     }
@@ -368,7 +369,7 @@
         font-size: 12px;
         line-height: 26px;
         display: block;
-        margin: 18px 32px;
+        margin: 10px 0 0 15px;
     }
 
     .page5 {

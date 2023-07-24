@@ -271,7 +271,7 @@
 
     .burger {
         position: fixed;
-        right: -13px;
+        right: -5px;
         top: -13px;
         z-index: 10;
         background-color: #F5F3EC;
@@ -284,8 +284,8 @@
 
     .burger .line {
         position: absolute;
-        right: 17px;
-        top: 19px;
+        right: 12px;
+        top: 16px;
         font-size: 20px;
         color: #AC725C;
     }
